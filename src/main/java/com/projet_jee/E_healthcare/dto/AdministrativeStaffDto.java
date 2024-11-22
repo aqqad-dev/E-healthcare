@@ -10,5 +10,4 @@ public class AdministrativeStaffDto extends UserDto {
     private AdminRole admin_role;
     private Instant creation_date;
     private Instant modification_date;
-    private ArrayList<HealthTeamDto> healthTeams;
 }

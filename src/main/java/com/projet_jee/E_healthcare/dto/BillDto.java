@@ -10,5 +10,4 @@ public class BillDto {
     private PaymentStatus payment_status;
     public LocalDate date_issued;
     public LocalDate due_date;
-    private AppointmentDto appointment;
 }

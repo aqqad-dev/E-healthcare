@@ -12,5 +12,4 @@ public class TreatmentDto {
     private String procedure;
     private int duration;
     private int frequency;
-    private ArrayList<DiseaseDto> diseases;
 }

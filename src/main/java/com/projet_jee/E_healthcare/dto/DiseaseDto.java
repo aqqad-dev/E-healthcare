@@ -6,6 +6,4 @@ public class DiseaseDto {
     private Integer id;
     private String name;
     private String description;
-    private ArrayList<SymptomDto> symptoms;
-    private ArrayList<TreatmentDto> treatments;
 }

@@ -8,7 +8,4 @@ public class AppointmentDto {
     private Integer id;
     private LocalDate date;
     private LocalTime time;
-    private PatientDto patient;
-    private DoctorDto doctor;
-    private ArrayList<BillDto> bills;
 }

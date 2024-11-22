@@ -7,6 +7,4 @@ import java.util.ArrayList;
 public class DoctorDto extends UserDto{
     private String doctor_code;
     private DoctorSpeciality doctor_speciality;
-    private ArrayList<HealthTeamDto> healthTeams;
-    private ArrayList<AppointmentDto> appointments;
 }

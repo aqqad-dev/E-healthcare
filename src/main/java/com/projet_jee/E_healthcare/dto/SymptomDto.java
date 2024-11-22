@@ -12,6 +12,4 @@ public class SymptomDto {
     private SymptomSeverity severity;
     private int duration;
     private LocalDate onset;
-    private ArrayList<PatientDto> patients;
-    private ArrayList<DiseaseDto> diseases;
 }
