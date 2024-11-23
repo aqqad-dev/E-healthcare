@@ -9,6 +9,7 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.time.Instant;
 import java.time.LocalDate;
 
@@ -22,7 +23,7 @@ public class Bill implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     @Column(name = "amount")
-    private double amount;
+    private BigDecimal amount;
     @Column(name = "paymentstatus")
     @Enumerated(EnumType.STRING)
     private PaymentStatus payment_status;

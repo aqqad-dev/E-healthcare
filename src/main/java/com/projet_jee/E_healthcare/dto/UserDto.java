@@ -1,7 +1,10 @@
 package com.projet_jee.E_healthcare.dto;
 
+import lombok.Data;
+
 import java.time.LocalDate;
 
+@Data
 public class UserDto {
     private Integer id;
     private String name;

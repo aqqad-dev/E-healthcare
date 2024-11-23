@@ -31,9 +31,9 @@ public class Treatment implements Serializable {
     @Column(name = "'procedure'")
     private String procedure;
     @Column(name = "duration")
-    private int duration;
+    private Integer duration;
     @Column(name = "frequency")
-    private int frequency;
+    private Integer frequency;
     @CreatedDate
     @Column(name = "creationdate", nullable = false)
     @JsonIgnore

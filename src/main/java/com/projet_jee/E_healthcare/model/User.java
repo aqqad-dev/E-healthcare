@@ -38,10 +38,6 @@ public class User implements Serializable {
     private String email;
     @Column(name = "photo")
     private String photo;
-    @Column(name = "username")
-    private String username;
-    @Column(name = "password")
-    private String password;
     @CreatedDate
     @Column(name = "creationdate", nullable = false)
     @JsonIgnore

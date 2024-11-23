@@ -30,7 +30,7 @@ public class Symptom implements Serializable {
     @Enumerated(EnumType.STRING)
     private SymptomSeverity severity;
     @Column(name = "duration")
-    private int duration;
+    private Integer duration;
     @Column(name = "onset")
     private LocalDate onset;
     @CreatedDate
